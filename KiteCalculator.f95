@@ -16,7 +16,7 @@ print*, "The length of diagonal q is : " , q , "units"
 print*, ""
 print*, "Type y for further calculations and n for exiting this code : "
 read*, ask
-if (ask /= "y" .or.  ask /=  "Y" ) then
+if (ask /= "y" .and.  ask /=  "Y" ) then
 exit
 end if
 print*,""
